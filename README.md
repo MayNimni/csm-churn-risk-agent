@@ -65,6 +65,7 @@ Agent:  [calls find_opportunities → search_playbook → create_task]
 | [Design decisions](docs/decisions.md) | Key decisions, alternatives considered, trade-offs |
 | [Risk & opportunity model](docs/risk-model.md) | Every rule, threshold, and weight, and why |
 | [How to run](docs/how-to-run.md) | Setup, demo scenarios, tests, troubleshooting |
+| [Roadmap](docs/roadmap.md) | Known gaps and next steps: output guardrails, evals, production |
 
 ## Quick start
 
