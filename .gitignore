@@ -1,0 +1,7 @@
+.env
+__pycache__/
+.venv/
+.adk/
+csm_agent/data/crm_tasks.json
+.pytest_cache/
+.DS_Store

@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug: task tests (no Gemini)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["tests/test_tasks.py", "-v"],
+      "justMyCode": true
+    },
+    {
+      "name": "Debug: ADK Web (full agent)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "google.adk.cli",
+      "args": ["web"],
+      "justMyCode": true
+    }
+  ]
+}
